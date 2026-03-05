@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Trabalhe Conosco — LP Engenharia. Confira as vagas abertas e faça parte da nossa equipe." />
+  <title>Trabalhe Conosco | LP Engenharia</title>
+
+  <!-- Favicon placeholder -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='4' fill='%231B3A6B'/><text x='50%' y='54%' dominant-baseline='middle' text-anchor='middle' font-family='serif' font-weight='900' font-size='18' fill='%23C8A951'>LP</text></svg>" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="page-vagas">
+
+  <!-- ══════════════════════════════════════════════════
+       NAVBAR (mesma da index)
+  ══════════════════════════════════════════════════ -->
+  <nav class="navbar scrolled" aria-label="Navegação principal">
+    <div class="container">
+      <a href="index.html" class="nav-logo" aria-label="LP Engenharia - Início">
+        <span class="nav-logo-text"><span>LP</span> Engenharia</span>
+      </a>
+
+      <ul class="nav-links" role="list">
+        <li><a href="index.html#areas">Áreas de Atuação</a></li>
+        <li><a href="index.html#areas">Projetos</a></li>
+        <li><a href="vagas.html">Vagas</a></li>
+        <li><a href="index.html#contato">Contato</a></li>
+      </ul>
+
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+
+  <!-- ══════════════════════════════════════════════════
+       HERO DA PÁGINA DE VAGAS
+  ══════════════════════════════════════════════════ -->
+  <header class="vagas-hero">
+    <p class="section-label" style="position:relative;z-index:1;">Carreira</p>
+    <h1>Trabalhe <em>Conosco</em></h1>
+    <p>
+      Buscamos profissionais comprometidos, inovadores e apaixonados pela engenharia.
+      Faça parte de uma equipe que transforma projetos em realidade.
+    </p>
+  </header>
+
+
+  <!-- ══════════════════════════════════════════════════
+       SEÇÃO DE VAGAS (renderizada via JavaScript)
+  ══════════════════════════════════════════════════ -->
+  <main class="vagas-section" id="vagas-container" aria-live="polite">
+    <!-- Conteúdo injetado pelo script.js -->
+  </main>
+
+
+  <!-- ══════════════════════════════════════════════════
+       FOOTER (idêntico ao da index)
+  ══════════════════════════════════════════════════ -->
+  <footer class="footer" aria-label="Rodapé">
+    <div class="container">
+
+      <div class="footer-grid">
+
+        <div class="footer-social">
+          <h4>Nossas redes sociais</h4>
+          <nav class="social-links" aria-label="Redes sociais">
+            <a href="#" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+              Instagram
+            </a>
+            <a href="#" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+              LinkedIn
+            </a>
+          </nav>
+        </div>
+
+        <div class="footer-center">
+          <div class="footer-logo-text"><span>LP</span> Engenharia</div>
+          <div class="footer-divider"></div>
+          <p class="footer-tagline">Excelência técnica a serviço do desenvolvimento.</p>
+          <p class="footer-copyright">
+            &copy; <span id="ano"></span> LP Engenharia<br/>
+            Todos os direitos reservados.
+          </p>
+        </div>
+
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>LP Engenharia — Fortaleza, Ceará, Brasil</p>
+        <a href="#" class="footer-dev" target="_blank" rel="noopener noreferrer">
+          Desenvolvido por Vinícius Freitas
+        </a>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- ══════════════════════════════════════════════════
+       SCRIPT DE VAGAS
+       ↓ Edite a variável `vagas` para adicionar ou
+         remover vagas. Deixe o array vazio ([]) para
+         exibir a mensagem "Sem vagas disponíveis".
+  ══════════════════════════════════════════════════ -->
+  <script>
+    /* ─────────────────────────────────────────────────
+       CONFIGURAÇÃO DE VAGAS
+       Para adicionar vagas: adicione objetos ao array.
+       Para simular "sem vagas": deixe o array vazio.
+    ───────────────────────────────────────────────── */
+    const vagas = [
+      {
+        titulo: "Engenheiro(a) Eletricista",
+        tipo: "CLT · Presencial",
+        descricao:
+          "Responsável pela elaboração e acompanhamento de projetos elétricos de média e baixa tensão, laudos técnicos e conformidade com normas ABNT. Experiência mínima de 2 anos na área.",
+        email: "rh@lpengenharia.com.br",
+      },
+      {
+        titulo: "Engenheiro(a) Civil",
+        tipo: "CLT · Presencial",
+        descricao:
+          "Atuará no desenvolvimento de projetos de saneamento e infraestrutura civil, incluindo levantamentos topográficos e elaboração de memoriais descritivos.",
+        email: "rh@lpengenharia.com.br",
+      },
+      {
+        titulo: "Analista Ambiental",
+        tipo: "PJ · Híbrido",
+        descricao:
+          "Elaboração de estudos ambientais (EIA/RIMA), acompanhamento de processos de licenciamento e monitoramento de áreas de preservação. Desejável registro no CREA/CRBio.",
+        email: "rh@lpengenharia.com.br",
+      },
+      /* ── Comente ou remova os itens acima para testar o estado "sem vagas" ── */
+    ];
+
+    /* ─────────────────────────────────────────────────
+       RENDERIZAÇÃO — não é necessário editar abaixo
+    ───────────────────────────────────────────────── */
+    const container = document.getElementById('vagas-container');
+
+    if (vagas.length === 0) {
+      /* Estado: SEM VAGAS */
+      container.innerHTML = `
+        <div class="sem-vagas reveal">
+          <div class="icon-wrap" aria-hidden="true">
+            <!-- Ícone de pasta vazia -->
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/>
+            </svg>
+          </div>
+          <h2>Sem vagas disponíveis no momento.</h2>
+          <p>
+            No momento não há posições abertas, mas continuamos crescendo.
+            Envie seu currículo para nosso banco de talentos e entraremos em contato
+            quando houver oportunidades.
+          </p>
+          <a href="mailto:rh@lpengenharia.com.br" class="btn-back">
+            Enviar currículo espontâneo
+          </a>
+          <br/><br/>
+          <a href="index.html" class="btn-back" style="background: transparent; border: 1px solid #1B3A6B; color: #1B3A6B; margin-top: 0.5rem;">
+            ← Voltar ao site
+          </a>
+        </div>
+      `;
+
+    } else {
+      /* Estado: COM VAGAS */
+      const titulo = document.createElement('div');
+      titulo.className = 'reveal';
+      titulo.innerHTML = `
+        <p class="section-label">Oportunidades abertas</p>
+        <h2 style="font-family: 'Playfair Display', serif; font-size: clamp(1.6rem, 3vw, 2.4rem); color: #0A1628; margin-bottom: 0.5rem;">
+          ${vagas.length} vaga${vagas.length > 1 ? 's' : ''} disponível${vagas.length > 1 ? 'is' : ''}
+        </h2>
+        <p style="color: #5a6a7e; font-size: 0.95rem; max-width: 480px; line-height: 1.7;">
+          Confira as oportunidades abaixo e envie seu currículo para o e-mail indicado em cada vaga.
+        </p>
+      `;
+      container.appendChild(titulo);
+
+      const grid = document.createElement('div');
+      grid.className = 'vagas-grid';
+
+      vagas.forEach((vaga, i) => {
+        const card = document.createElement('article');
+        card.className = 'vaga-card reveal';
+        card.style.transitionDelay = `${i * 0.1}s`;
+        card.setAttribute('aria-label', `Vaga: ${vaga.titulo}`);
+
+        card.innerHTML = `
+          <span class="badge">${vaga.tipo}</span>
+          <h3>${vaga.titulo}</h3>
+          <p>${vaga.descricao}</p>
+          <div class="vaga-email">
+            <!-- Ícone envelope -->
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            Envie seu currículo para:&nbsp;<strong>${vaga.email}</strong>
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+
+      container.appendChild(grid);
+    }
+
+    /* ─── Ano no footer ─── */
+    const anoEl = document.getElementById('ano');
+    if (anoEl) anoEl.textContent = new Date().getFullYear();
+  </script>
+
+  <!-- Scripts compartilhados (navbar, scroll reveal, etc.) -->
+  <script src="script.js"></script>
+
+</body>
+</html>

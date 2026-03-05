@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="LP Engenharia — Excelência em Projetos Elétricos, Civis, Ambientais e Consultoria. Fortaleza, CE." />
+  <title>LP Engenharia</title>
+
+  <!-- Favicon SVG inline -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='4' fill='%23111111'/><text x='50%' y='54%' dominant-baseline='middle' text-anchor='middle' font-family='serif' font-weight='900' font-size='18' fill='%238B0000'>LP</text></svg>" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ══════════════════════════════════════════════════
+       NAVBAR
+  ══════════════════════════════════════════════════ -->
+  <nav class="navbar" aria-label="Navegação principal">
+    <div class="container">
+
+      <!-- Logo -->
+      <a href="index.html" class="nav-logo" aria-label="LP Engenharia - Início">
+        <!--
+          INSTRUÇÃO: Para usar a logo real, substitua o span abaixo por:
+          <img src="logoLP.png" alt="LP Engenharia" />
+        -->
+        <span class="nav-logo-text"><span>LP</span> Engenharia</span>
+      </a>
+
+      <!-- Links -->
+      <ul class="nav-links" role="list">
+        <li><a href="#areas">Áreas de Atuação</a></li>
+        <li><a href="#localizacao">Localização</a></li>
+        <li><a href="vagas.html">Vagas</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+
+      <!-- Hamburguer mobile -->
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+    </div>
+  </nav>
+
+
+  <!-- ══════════════════════════════════════════════════
+       HERO SECTION
+  ══════════════════════════════════════════════════ -->
+  <section class="hero" aria-label="Apresentação LP Engenharia">
+
+    <!-- Fundo fotográfico -->
+    <div class="hero-bg" role="presentation"></div>
+    <!-- Overlay vermelho-preto -->
+    <div class="hero-overlay" role="presentation"></div>
+
+    <!-- Conteúdo: texto | logo | texto -->
+    <div class="hero-content">
+
+      
+
+      <!-- Logo centralizada -->
+      <div class="hero-logo-wrap">
+        <!--
+          INSTRUÇÃO: Substitua o bloco abaixo pela sua logo:
+          <img src="logoLP.png" alt="LP Engenharia" class="hero-logo" />
+        -->
+        <div class="hero-logo-fallback" role="img" aria-label="Logo LP Engenharia">
+          <div class="hero-logo-initials"><span>L</span>P</div>
+          <div class="hero-logo-name">Engenharia</div>
+        </div>
+
+        <div class="hero-divider" aria-hidden="true"></div>
+
+        <p class="hero-tagline">
+          Soluções técnicas com precisão, inovação e comprometimento.
+        </p>
+      </div>
+
+      
+
+    </div>
+
+    <!-- Indicador de scroll -->
+    <div class="hero-scroll" aria-hidden="true">
+      <span>Explorar</span>
+    </div>
+
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════════
+       ÁREAS DE ATUAÇÃO
+  ══════════════════════════════════════════════════ -->
+  <section class="areas" id="areas" aria-label="Áreas de atuação">
+
+    <!-- Cabeçalho -->
+    <header class="areas-header reveal">
+      <p class="section-label">O que fazemos</p>
+      <h2>Nossas <em>Áreas de</em> Atuação</h2>
+      <p>
+        Da concepção ao resultado final, entregamos projetos com rigor técnico,
+        responsabilidade ambiental e excelência profissional.
+      </p>
+    </header>
+
+    <!-- ── Área 1: Elétrica (imagem à esquerda) ── -->
+    <article class="area-card reveal-left" aria-label="Área: Engenharia Elétrica">
+
+      <div class="area-image-wrap">
+        <img
+          src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=900&q=80"
+          alt="Profissional trabalhando em painel elétrico industrial"
+          loading="lazy"
+        />
+        <p class="area-caption">Projeto elétrico realizado em Fortaleza pela LP Engenharia em 2025.</p>
+      </div>
+
+      <div class="area-content" data-num="01">
+        <p class="area-subtitle">Especialidade</p>
+        <h3>Engenharia<br/>Elétrica</h3>
+        <div class="area-bar"></div>
+        <p>
+          Desenvolvemos projetos elétricos de alta e baixa tensão, dimensionamento
+          de sistemas de distribuição, laudos técnicos e manutenção preventiva e
+          corretiva. Atendemos indústrias, comércio e órgãos públicos com
+          conformidade às normas da ABNT e ANEEL.
+        </p>
+        <div class="area-logo-inline">
+          <span class="logo-mini"><span>L</span>P</span>
+          <p>Projetos elétricos confiáveis, do planejamento à execução.</p>
+        </div>
+        <a href="mailto:contato@lpengenharia.com.br" class="btn-orcamento" aria-label="Solicitar orçamento em Elétrica">
+          <span>Solicitar Orçamento</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+
+    </article>
+
+
+    <!-- ── Área 2: Civil / Saneamento / Topografia (imagem à direita) ── -->
+    <article class="area-card reveal-right" aria-label="Área: Civil, Saneamento e Topografia">
+
+      <div class="area-image-wrap">
+        <img
+          src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=900&q=80"
+          alt="Engenheiros realizando levantamento topográfico em obra"
+          loading="lazy"
+        />
+        <p class="area-caption">Levantamento topográfico realizado no Ceará pela LP Engenharia em 2025.</p>
+      </div>
+
+      <div class="area-content" data-num="02">
+        <p class="area-subtitle">Especialidade</p>
+        <h3>Civil — Saneamento<br/>& Topografia</h3>
+        <div class="area-bar"></div>
+        <p>
+          Executamos projetos de saneamento básico, redes de abastecimento e
+          esgotamento sanitário, além de serviços topográficos com equipamentos
+          de última geração. Atuamos em obras públicas e privadas com precisão
+          e cumprimento de prazos.
+        </p>
+        <div class="area-logo-inline">
+          <span class="logo-mini"><span>L</span>P</span>
+          <p>Infraestrutura civil planejada com precisão técnica.</p>
+        </div>
+        <a href="mailto:contato@lpengenharia.com.br" class="btn-orcamento" aria-label="Solicitar orçamento em Civil">
+          <span>Solicitar Orçamento</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+
+    </article>
+
+
+    <!-- ── Área 3: Ambiental (imagem à esquerda) ── -->
+    <article class="area-card reveal-left" aria-label="Área: Ambiental">
+
+      <div class="area-image-wrap">
+        <img
+          src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=900&q=80"
+          alt="Vista aérea de área verde com planejamento ambiental"
+          loading="lazy"
+        />
+        <p class="area-caption">Estudo de impacto ambiental executado no litoral do Ceará pela LP Engenharia em 2024.</p>
+      </div>
+
+      <div class="area-content" data-num="03">
+        <p class="area-subtitle">Especialidade</p>
+        <h3>Engenharia<br/>Ambiental</h3>
+        <div class="area-bar"></div>
+        <p>
+          Elaboramos Estudos de Impacto Ambiental (EIA), Relatórios de Impacto
+          Ambiental (RIMA), licenciamentos e planos de recuperação de áreas
+          degradadas. Nossa equipe garante que todos os empreendimentos atendam
+          às exigências legais dos órgãos ambientais.
+        </p>
+        <div class="area-logo-inline">
+          <span class="logo-mini"><span>L</span>P</span>
+          <p>Responsabilidade ambiental em cada etapa do projeto.</p>
+        </div>
+        <a href="mailto:contato@lpengenharia.com.br" class="btn-orcamento" aria-label="Solicitar orçamento em Ambiental">
+          <span>Solicitar Orçamento</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+
+    </article>
+
+
+    <!-- ── Área 4: Consultoria (imagem à direita) ── -->
+    <article class="area-card reveal-right" aria-label="Área: Consultoria">
+
+      <div class="area-image-wrap">
+        <img
+          src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=900&q=80"
+          alt="Reunião de consultoria técnica em escritório corporativo"
+          loading="lazy"
+        />
+        <p class="area-caption">Consultoria técnica para cliente público em Fortaleza pela LP Engenharia em 2025.</p>
+      </div>
+
+      <div class="area-content" data-num="04">
+        <p class="area-subtitle">Especialidade</p>
+        <h3>Consultoria<br/>Pública & Privada</h3>
+        <div class="area-bar"></div>
+        <p>
+          Prestamos assessoria técnica especializada para empresas privadas e
+          entidades públicas, auxiliando na gestão de projetos, fiscalização de
+          obras, elaboração de editais e pareceres técnicos. Estratégia que
+          agrega valor e reduz riscos em cada tomada de decisão.
+        </p>
+        <div class="area-logo-inline">
+          <span class="logo-mini"><span>L</span>P</span>
+          <p>Inteligência técnica para decisões mais seguras.</p>
+        </div>
+        <a href="mailto:contato@lpengenharia.com.br" class="btn-orcamento" aria-label="Solicitar orçamento em Consultoria">
+          <span>Solicitar Orçamento</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+
+    </article>
+
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════════
+       SEÇÃO LOCALIZAÇÃO
+       Posicionada entre Áreas de Atuação e Footer
+  ══════════════════════════════════════════════════ -->
+  <section class="localizacao" id="localizacao" aria-label="Nossa localização">
+
+    <div class="localizacao-grid">
+
+      <!-- ── Lado esquerdo: Google Maps embed ── -->
+      <div class="localizacao-mapa reveal-left" aria-label="Mapa de localização LP Engenharia">
+        <!--
+          EMBED GOOGLE MAPS — Rua Zuca Aciolly, 1001, Fortaleza, CE
+          Para personalizar o embed com PIN exato:
+          1. Acesse maps.google.com
+          2. Pesquise o endereço
+          3. Clique em "Compartilhar" → "Incorporar um mapa"
+          4. Cole o src do iframe aqui.
+
+          O embed abaixo usa a busca textual padrão do Google Maps:
+        -->
+        <iframe
+          src="https://maps.google.com/maps?q=Rua+Zuca+Aciolly,+1001,+Fortaleza,+CE,+Brasil&output=embed&z=16"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Localização LP Engenharia — Rua Zuca Aciolly, 1001, Fortaleza CE"
+        ></iframe>
+      </div>
+
+      <!-- ── Lado direito: informações ── -->
+      <div class="localizacao-info reveal-right">
+
+        <p class="section-label">Onde estamos</p>
+        <h2>Nossa <em>Localização</em></h2>
+        <div class="localizacao-bar" aria-hidden="true"></div>
+
+        <!-- Endereço com ícone de pin -->
+        <div class="localizacao-endereco">
+          <div class="pin-icon" aria-hidden="true">
+            <!-- Ícone de localização (SVG inline) -->
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+            </svg>
+          </div>
+          <div class="localizacao-endereco-texto">
+            <strong>Endereço</strong>
+            <address>Zuca Aciolly, 1001</address>
+            <span>Fortaleza – CE · Brasil</span>
+          </div>
+        </div>
+
+        <!-- Texto institucional -->
+        <p class="localizacao-texto">
+          Estamos localizados em Fortaleza, atendendo toda a região com
+          excelência e compromisso técnico. Nossa estrutura permite atender
+          projetos em todo o Ceará e estados vizinhos.
+        </p>
+
+        <!-- Botão abre no Google Maps -->
+        <a
+          href="https://maps.google.com/?q=Zuca+Aciolly,+1001,+Fortaleza,+CE"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-gmaps"
+          aria-label="Ver rota no Google Maps"
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+          <span>Como Chegar</span>
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════════════ -->
+  <footer class="footer" id="contato" aria-label="Rodapé">
+    <div class="container">
+
+      <div class="footer-grid">
+
+        <!-- Coluna esquerda: redes sociais -->
+        <div class="footer-social reveal">
+          <h4>Nossas redes sociais</h4>
+          <nav class="social-links" aria-label="Redes sociais LP Engenharia">
+
+            <a href="#" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram da LP Engenharia">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+              Instagram
+            </a>
+
+            <a href="#" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn da LP Engenharia">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+              LinkedIn
+            </a>
+
+          </nav>
+        </div>
+
+        <!-- Coluna central: logo + copyright -->
+        <div class="footer-center reveal">
+          <div class="footer-logo-text"><span>LP</span> Engenharia</div>
+          <div class="footer-divider" aria-hidden="true"></div>
+          <p class="footer-tagline">Excelência técnica a serviço do desenvolvimento.</p>
+          <p class="footer-copyright">
+            &copy; <span id="ano"></span> LP Engenharia<br/>
+            Todos os direitos reservados.
+          </p>
+        </div>
+
+        <!-- Coluna direita: trabalhe conosco -->
+        <div class="footer-links reveal">
+          <h4>Faça parte da equipe</h4>
+          <a href="vagas.html" class="btn-vagas">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="7" width="20" height="14" rx="2"/>
+              <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/>
+            </svg>
+            Trabalhe Conosco
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Linha inferior -->
+      <div class="footer-bottom">
+        <p>LP Engenharia — Fortaleza, Ceará, Brasil</p>
+        <a href="#" class="footer-dev" target="_blank" rel="noopener noreferrer">
+          Desenvolvido por Vinícius Freitas
+        </a>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+  <script>
+    // Atualiza o ano do copyright automaticamente
+    const anoEl = document.getElementById('ano');
+    if (anoEl) anoEl.textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
