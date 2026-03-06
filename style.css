@@ -45,7 +45,7 @@ html {
 body {
   font-family: var(--font-body);
   background: var(--white);
-  color: var(--black);
+  color: rgba(22, 22, 22, 0.2) ;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
 }
@@ -869,6 +869,8 @@ a {
   text-transform: uppercase;
   color: var(--red-bright);
   margin-bottom: 0.25rem;
+  align-items: center;
+  
 }
 
 .btn-vagas {
@@ -1068,7 +1070,7 @@ a {
 
 .sem-vagas .icon-wrap svg { width: 36px; height: 36px; fill: var(--red); opacity: 0.4; }
 .sem-vagas h2 { font-family: var(--font-display); font-size: 1.75rem; color: var(--black); margin-bottom: 0.75rem; }
-.sem-vagas p { font-size: 0.97rem; color: #666; max-width: 380px; margin: 0 auto 2rem; line-height: 1.7; }
+.sem-vagas p { font-size: 0.97rem; color: #667; max-width: 380px; margin: 0 auto 2rem; line-height: 1.7; }
 
 .btn-back {
   display: inline-flex;
@@ -1118,7 +1120,7 @@ a {
     display: none;
     position: fixed;
     top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(17,17,17,0.98);
+    background: rgba(26, 25, 25, 0.98);
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -1143,4 +1145,16 @@ a {
   .footer-grid { gap: 2.5rem; padding: 0 1.5rem 2.5rem; }
   .footer-bottom { flex-direction: column; text-align: center; }
   .vagas-hero { padding: 7rem 1.5rem 3.5rem; }
+
+
+  .clientes-label {
+  font-family: var(--font-label);
+  font-size: 0.75rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--red-bright);
+  margin-top: 3px;
+  margin-bottom: 18px;
+}
+
 }
